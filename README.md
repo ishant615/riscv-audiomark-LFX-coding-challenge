@@ -75,6 +75,9 @@ So:
 * Proxy kernel (pk)
 * Python 3
 
+
+> **Note:** Spike is used instead of QEMU because the compiler used (Newlib Cross Compiler from the RISC-V GNU Toolchain) does not generate binaries compatible with a Linux user environment which QEMU provides. To run the same code in a QEMU environment, the Linux cross compiler (from the RISC-V GNU toolchain) or equivalent must be used.
+
 ## Build
 
 ### make build
