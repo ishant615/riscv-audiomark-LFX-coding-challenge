@@ -123,6 +123,14 @@ int main(void){
 
         else {
 
+            // Calculating maximum difference (adhering to boiler plate standard)
+            int32_t max_diff = 0;
+
+            for(int i = 0; i < n; i++){
+
+                max_diff = (diff[i] > max_diff) ? diff[i]:max_diff;
+            }
+
             printf("Test Case %d: FAIL\n", testcase);
 
             // Full implementation result (FAIL if one or more test cases fail)
