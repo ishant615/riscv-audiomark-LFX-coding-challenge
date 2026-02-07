@@ -1,4 +1,4 @@
-# RVV-Accelerated Q15 AXPY (Saturating Multiply-Accumulate)
+# Risc-V Vector-Accelerated Q15 AXPY (Saturating Multiply-Accumulate)
 
 This repository contains a RISC-V Vector (RVV) accelerated implementation of a **Q15 saturating AXPY kernel**:
 
