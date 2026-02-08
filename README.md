@@ -1,4 +1,19 @@
-# Risc-V Vector-Accelerated Q15 AXPY (Saturating Multiply-Accumulate)
+<!-- 
+==================================================
+RISC-V Audiomark - Coding Challenge
+==================================================
+
+==================================================
+File: Makefile
+Author: ishant615
+Date: Feb 8, 2026
+
+Description: Repository documentation and build
+             instructions
+==================================================
+-->
+
+# Risc-V Vector-Accelerated Q15 AXPY (Saturating Multiply-Accumulate) 
 
 This repository contains a RISC-V Vector (RVV) accelerated implementation of a **Q15 saturating AXPY kernel**:
 

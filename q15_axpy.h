@@ -1,3 +1,16 @@
+// ==================================================
+// RISC-V Audiomark - Coding Challenge
+// ==================================================
+
+// ==================================================
+// File: q15_axpy.h
+// Author: ishant615
+// Date: Feb 8, 2026
+// 
+// Description: Header file for functions 
+//              Implemented in q15_axpy.c
+// ==================================================
+
 #ifndef Q15_AXPY_H
 #define Q15_AXPY_H
 

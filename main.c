@@ -1,3 +1,15 @@
+// ==================================================
+// RISC-V Audiomark - Coding Challenge
+// ==================================================
+
+// ==================================================
+// File: main.c
+// Author: ishant615
+// Date: Feb 8, 2026
+// 
+// Description: Test harness and driver for the 
+//              Q15 AXPY kernel.
+// ==================================================
 
 // Including standard header files
 #include <stdio.h>

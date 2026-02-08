@@ -2,24 +2,18 @@
 // RISC-V Audiomark - Coding Challenge
 // ==================================================
 
-// ================================================================
-//  File:        q15_axpy_rvv.c
-//  Author:      ishant615
-//  Date:        date
+// ==================================================
+//  File: q15_axpy.c
+//  Author: ishant615
+//  Date: Feb 8, 2026
+//
 //  Description:
-//  ------------
 //  RISC-V Vector (RVV) accelerated implementation of a saturating
 //  AXPY kernel operating on 16-bit signed integers.
 //      y[i] = sat_q15( a[i] + alpha * b[i] )
 //  where:
 //    - a[i], b[i], y[i], alpha are int16_t
-//    - intermediate computation is performed in int32_t
-//    - final result is saturated to the range [-32768, 32767]
-//  The implementation is:
-//    - Vector-length agnostic (VLA)
-//    - Compatible with RV32 and RV64
-//    - Based on RVV intrinsics (v1.0)
-// ================================================================
+// ==================================================
 
 // Including standard header files
 #include <stdio.h>

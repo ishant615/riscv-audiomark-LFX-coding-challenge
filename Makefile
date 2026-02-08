@@ -1,5 +1,14 @@
 # ==================================================
-# Q15 AXPY - Scalar vs RVV Timing
+# RISC-V Audiomark - Coding Challenge
+# ==================================================
+
+# ==================================================
+# File: Makefile
+# Author: ishant615
+# Date: Feb 8, 2026
+# 
+# Description: Compile, run and time system for 
+# 			   main.c and q15_axpy.c
 # ==================================================
 
 # Compiler
@@ -59,6 +68,6 @@ time: build
 # ==================================================
 
 clean:
-	rm -f scalar.elf rvv.elf timing.txt
+	rm -f scalar.elf rvv.elf timing.txt output.txt
 
 .PHONY: scalar rvv all run-scalar run-rvv time clean

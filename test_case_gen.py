@@ -3,9 +3,12 @@
 # ==================================================
 
 # ==================================================
-#  File:        test_case_gen.py
-#  Author:      ishant615
-#  Date:        date
+# File: test_case_gen.py
+# Author: ishant615
+# Date: Feb 8, 2026
+# 
+# Description: Test case generator
+#              Stores test cases in (input.txt)
 # ==================================================
 
 import random
